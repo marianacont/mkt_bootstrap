@@ -1,4 +1,16 @@
 
+body::before{
+    display: block;
+     content: '';
+     height: 60px;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 100%;
+}
+
+
 
 @media screen and (min-width: 768px) {
     .news-input {

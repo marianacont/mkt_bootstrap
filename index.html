@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
-    <title>Yoga Studio</title>
+    <title>Grow Agency</title>
 </head>
-<body>
+<body class="bg-light" data-bs-spy="scroll" data-bs-target="#nav">
     <!-- Imagenes y videos en: https://www.pexels.com/es-es/collections/yoga-yf8xg07/ -->
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="nav">
         <div class="container">
-            <a href="#" class="navbar-brand">Yoga Studio</a>
+            <a href="#" class="navbar-brand">Grow - Marketing agency</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                        <a href="#services" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#classes" class="nav-link">Classes</a>
+                        <a href="#about" class="nav-link">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#instructor" class="nav-link">Instructors</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -34,15 +34,15 @@
     </nav>
 
     <!-- Header -->
-    <header class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-md-end">
+    <header class="m-5 p-lg-0 pt-lg-5 text-center text-md-end">
         <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between ">
+            <div class="d-md-flex align-items-center justify-content-between ">
                 <div class="pe-4">
-                    <h1 class="fs-1">Yoga <span class="text-warning">Studio</span></h1>
-                    <p class="my-4">Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India and aim to control and still the mind, recognizing a detached witness-consciousness untouched by the mind and mundane suffering</p>
-                    <button class="btn btn-primary btn-lg">Try a free lesson</button>       
+                    <h1 class="h1">Grow <span class="text-primary">Marketing Agency</span></h1>
+                    <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur laudantium aliquam sapiente voluptatibus molestias, culpa deleniti odio provident totam repellat eveniet quod commodi magnam nesciunt asperiores recusandae modi molestiae mollitia voluptatum autem enim! Ratione deserunt facilis nobis, incidunt id fugiat blanditiis doloremque omnis corporis minima amet molestias explicabo eius.</p>
+                    <button class="btn btn-primary btn-lg">Grow with us</button>       
                 </div>
-                <img class="img-fluid p-2 w-50 d-none d-sm-block" src="assets/img/pexels-yan-krukau-8436694.jpg" alt="">
+                <img class="img-fluid w-50 text-center p-2 d-none d-sm-block m-auto" src="assets/img/social-media-g7582b7828_1280.png" alt="">
             </div>            
         </div>
     </header>
@@ -60,16 +60,16 @@
         </div>
     </section>
 
-    <!-- Boxes -->
+    <!-- Benefits section -->
     <section class="p-5">
         <div class="container">
-            <h2 class="text-center pb-3">Yoga Benefits</h2>
-          <div class="row text-center">
+          <div class="row text-center g-4">
+
             <div class="col-md">
-                <div class="card bg-dark text-light">
+                <div class="card bg-secondary text-light">
                     <div class="card-body text-center">
-                        <i class="h1 bi bi-suit-heart-fill"></i>
-                        <h3 class="card-title mb-3">Your Health</h3>
+                        <i class="h1 bi bi-bar-chart-fill"></i>
+                        <h3 class="card-title m-3">Results</h3>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate iure ipsum libero obcaecati quis?</p>
                         <a href="#" class="btn btn-primary">Read More</a>
                     </div>
@@ -79,8 +79,8 @@
             <div class="col-md">
                 <div class="card bg-dark text-light">
                     <div class="card-body text-center">
-                        <i class="h1 bi bi-wind"></i>
-                        <h3 class="card-title mb-3">Harmony</h3>
+                        <i class="h1 bi bi-arrow-up-square-fill"></i>
+                        <h3 class="card-title m-3">Growth</h3>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate iure ipsum libero obcaecati quis?</p>
                         <a href="#" class="btn btn-primary">Read More</a>
                     </div>
@@ -88,10 +88,10 @@
             </div>
 
             <div class="col-md">
-                <div class="card bg-dark text-light">
+                <div class="card bg-secondary text-light">
                     <div class="card-body text-center">
-                        <i class="h1 bi bi-people-fill"></i>
-                        <h3 class="card-title mb-3">Connect</h3>
+                        <i class="h1 bi bi-globe-americas"></i>
+                        <h3 class="card-title m-3">Worldwide</h3>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate iure ipsum libero obcaecati quis?</p>
                         <a href="#" class="btn btn-primary">Read More</a>
                     </div>
@@ -102,10 +102,207 @@
         </div>
     </section>
 
+    <!-- Services section -->
+    <section id="services" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="assets/img/marketing-gfda698f68_1280.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Why do you need a marketing agency?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae nesciunt possimus quis mollitia aperiam iste esse vel ipsa doloribus non fuga omnis laboriosam assumenda, ea sequi id magni nostrum itaque facilis voluptatibus reiciendis consectetur quasi?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi esse sit placeat, officiis nobis iusto quibusdam laboriosam voluptatibus quas, vel tenetur sint cum dignissimos hic distinctio beatae ratione recusandae?</p>
+                    <a href="" class="btn btn-secondary my-3"><i class="bi bi-chevron-right"></i> Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="container p-3">
+            <h2 class="fs-1 text-center mt-5">Our services</h2>
+            <hr class="mx-auto mb-5 w-25">
+            
+            <div class="row mb-5">
+                
+                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                    <div class="card shadow bg-primary text-light">
+                        <img class="card-img-top" src="assets/img/Competitive intelligence-pana.svg" alt="">
+                        <div class="card-body">
+                            <h3 class="text-center">Consulting</h3>
+                            <hr class="mx-auto w-75">
+                            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, exercitationem consequuntur autem eius unde debitis reiciendis animi corrupti cupiditate rem porro quae labore aliquam, nihil, similique distinctio? Neque, rem a.</p>
+                        </div>
+                    </div>
+                </div>
+                        
+
+                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                    <div class="card shadow bg-primary text-light">
+                        <img class="card-img-top" src="assets/img/Mobile Marketing-pana.svg" alt="">
+                        <div class="card-body">
+                            <h3 class="text-center">Marketing Online</h3>
+                            <hr class="mx-auto w-75">
+                            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, exercitationem consequuntur autem eius unde debitis reiciendis animi corrupti cupiditate rem porro quae labore aliquam, nihil, similique distinctio? Neque, rem a.</p>
+                        </div>
+                    </div>
+                </div>        
+
+            
+                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                    <div class="card shadow bg-primary text-light">
+                        <img class="card-img-top" src="assets/img/Visual data-pana.svg" alt="">
+                        <div class="card-body">
+                            <h3 class="text-center">SEO - SEM</h3>
+                            <hr class="mx-auto w-75">
+                            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, exercitationem consequuntur autem eius unde debitis reiciendis animi corrupti cupiditate rem porro quae labore aliquam, nihil, similique distinctio? Neque, rem a.</p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- FAQ -->
+     <section class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="faq">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Question number one?
+                    </button>
+                  </h2>
+                  <div id="faq-1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At eligendi exercitationem optio vero mollitia! Voluptates tempore et deleniti porro vero!</div>
+                  </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Question number two?
+                    </button>
+                  </h2>
+                  <div id="faq-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic ex libero blanditiis. Consequatur sint optio illum eos alias iste!</div>
+                  </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Question number three?
+                    </button>
+                  </h2>
+                  <div id="faq-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab placeat quis reiciendis cum nulla minus cupiditate porro optio magnam.</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+     </section>
+
+     <!-- Team section -->
+     <section id="about" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-light">About us</h2>
+            <p class="text-light text-center pb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio fuga nesciunt modi adipisci impedit sed labore eligendi et laborum molestias. Ea quo veritatis vel vitae eaque mollitia numquam tempore dolorem perferendis rem. Nihil iste asperiores ducimus! Sed excepturi ullam quo?</p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/71.jpg" class="rounded-pill mb-3 img-fluid" alt="">
+                            <h3 class="card-title mb-3">Johana Pascal</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim quisquam repudiandae magni placeat officia quos rerum omnis at expedita.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-pill mb-3 img-fluid" alt="">
+                            <h3 class="card-title mb-3">Michael Pass</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim quisquam repudiandae magni placeat officia quos rerum omnis at expedita.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/5.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                            <h3 class="card-title mb-3">Chirstian Bole</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim quisquam repudiandae magni placeat officia quos rerum omnis at expedita.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/13.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                            <h3 class="card-title mb-3">Adele Garvin</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim quisquam repudiandae magni placeat officia quos rerum omnis at expedita.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
     </main>
 
-    <footer>
-        <p>This is a fake website, designing for practising. All the images and videos belong to <a href="https://www.pexels.com/es-es/@yankrukov/">Yan Krukau</a>, via Pexel.com. Thank you.</p>
+
+
+    <div class="container p-5 mt-5">
+        <div id="contact">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> 50 Main st. Boston MA
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Information phone:</span> (111) 222-3333
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">E-mail:</span> contact@growmkt.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23582.34367335613!2d-71.11674487321775!3d42.3682514467094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20Massachusetts%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1676144927811!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <p class="pt-5">This is a fake website, designing for practising. All the images and videos are free to use.
+            <br> <a href="https://storyset.com/business">Business illustrations by Storyset</a>
+        </p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark position-relative text-center text-white">
+        <div class="container">
+            <p>Copyright &copy; 2023 Mariana Conti</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
 
     </footer>
 
